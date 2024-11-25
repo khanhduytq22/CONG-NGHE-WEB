@@ -8,10 +8,10 @@ CREATE TABLE prod (
     size VARCHAR(50),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-INSERT INTO prod (name, price, size) VALUES
-('Sản phẩm A', 1500.00, 'Nhỏ'),
-('Sản phẩm B', 2500.00, 'Vừa'),
-('Sản phẩm C', 3500.00, 'Lớn');
+INSERT INTO prod (name, price,) VALUES
+('Sản phẩm A', 1500.00),
+('Sản phẩm B', 2500.00),
+('Sản phẩm C', 3500.00);
 
 ALTER TABLE prod ADD COLUMN description TEXT;
 ALTER TABLE prod ADD COLUMN image VARCHAR(255);
